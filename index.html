@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서울자전거 따릉이</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="./css/common.css">
+
+</head>
+
+<body>
+
+  <header class="hd">
+    <div class="_inner">
+      <h1><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
+      <nav class="gnb">
+        <div class="h_top">
+          <ul>
+            <li class="lang">
+              <span><i class="fas fa-globe"></i>KR<i class="fas fa-chevron-down"></i></span>
+              <ul class="lang_">
+                <li><a href="#">EN</a></li>
+                <li><a href="#">CH</a></li>
+                <li><a href="#">JP</a></li>
+              </ul>
+            </li>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+        </div>
+        <div class="h_bot">
+          <ul>
+            <li><a href="#">이용안내</a></li>
+            <li><a href="#">대여소 조회</a></li>
+            <li><a href="#">이용권 구매</a></li>
+            <li><a href="#">문의/FAQ</a></li>
+            <li><a href="#">공지사항</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="ham">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <div class="wrap1">
+    <section class="sec1">
+      <div class="_inner">
+        <div class="sec1_log">
+          <div class="log_con">
+            <span>서울시의 친환경 교통수단 따릉이</span>
+            <div class="id_pass">
+              <input class="m_input" type="text" placeholder="아이디" onfocus="this.placeholder=''"
+                onblur="this.placeholder='아이디'">
+              <p></p>
+            </div>
+            <div class="id_pass">
+              <input class="m_input" type="text" placeholder="비밀번호" onfocus="this.placeholder=''"
+                onblur="this.placeholder='비밀번호'">
+              <p></p>
+            </div>
+            <div class="keep_find">
+              <div class="keep_login">
+                <input type="checkbox">
+                <label for="keep_login">로그인 상태 유지</label>
+              </div>
+              <div class="find">
+                <a href="#">아이디 찾기</a>
+                <a href="#">비밀번호 찾기</a>
+              </div>
+            </div>
+            <button class="login_btn">로그인하기</button>
+            <div class="login_sns">
+              <span>SNS 계정으로 로그인하기</span>
+              <div class="sns_set">
+                <a href="#"><img src="./img/log1.png" alt="페이스북"></a>
+                <a href="#"><img src="./img/log2.png" alt="네이버"></a>
+                <a href="#"><img src="./img/log3.png" alt="카카오"></a>
+              </div>
+            </div>
+            <div class="login_bot">
+              <a href="#">회원가입하기</a>
+              <a href="#">비회원 로그인하기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="side_con">
+        <div class="side_nav">
+          <div>
+            <p>아이콘</p>
+            <span>이용하기</span>
+            <a href="#"></a>
+          </div>
+          <div>
+            <p>아이콘</p>
+            <span>대여소 조회</span>
+            <a href="#"></a>
+          </div>
+          <div>
+            <p>아이콘</p>
+            <span>요금안내</span>
+            <a href="#"></a>
+          </div>
+          <div>
+            <p>아이콘</p>
+            <span>문의하기</span>
+            <a href="#"></a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="sec2">
+      <div class="_inner">
+        <div class="sec2_text">
+          <div class="main_copy">
+            <span>따릉이와 함께하는</span>
+            <span>세계적인 자전거 도시 서울</span>
+          </div>
+          <div class="sub_copy">
+            <span>따릉이는 저탄소 녹색성장 실현을 위한 교통수단입니다</span> <span>따릉이 이용으로 맑은 서울을 만들어 주세요</span>
+          </div>
+        </div>
+        <div class="sec2_btn">
+          <div class="swiper-button-prev"></div>
+          <div class="page swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="sec2_con swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="sec2_slide swiper-slide">
+              <div class="sec2_img">
+                <img src="./img/sec2_1.png" alt="">
+              </div>
+              <div class="slide_text">
+                <p>건강한 자전거 도시</p>
+                <p>자전거 이용의 생활화를 통한 시민 건강 증진 실현</p>
+              </div>
+            </div>
+            <div class="sec2_slide swiper-slide">
+              <div class="sec2_img">
+                <img src="./img/sec2_2.png" alt="">
+              </div>
+              <div class="slide_text">
+                <p>깨끗한 자전거 도시</p>
+                <p>자전거 교통수단 분담률을 향상시켜 CO2발생 감소 실현</p>
+              </div>
+            </div>
+            <article class="sec2_slide swiper-slide">
+              <div class="sec2_img">
+                <img src="./img/sec2_3.png" alt="">
+              </div>
+              <div class="slide_text">
+                <p>녹색 성장 선도 도시</p>
+                <p>국가 비전인 “저탄소 녹색성장”실현</p>
+              </div>
+            </article>
+            <div class="sec2_slide swiper-slide">
+              <div class="sec2_img">
+                <img src="./img/sec2_4.png" alt="">
+              </div>
+              <div class="slide_text">
+                <p>편리한 자전거 도시</p>
+                <p>곳곳에 배치된 자전거로 이동 편리성 증진 실현</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec2_foot">하단 컬러바</div>
+    </section>
+    <section class="sec3 _inner">
+      <div class="sec3_text">
+        <span>따릉이 이용방법</span>
+        <a href="#">더보기<i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div class="sec3_con">
+        <div>
+          <p><img src="./img/sec3_g1.png" alt=""></p>
+          <span>LCD따릉이 대여방법</span>
+          <a href="#"></a>
+        </div>
+        <div>
+          <p><img src="./img/sec3_g2.png" alt=""></p>
+          <span>QR따릉이 대여방법</span>
+          <a href="#"></a>
+        </div>
+        <div>
+          <p><img src="./img/sec3_g3.png" alt=""></p>
+          <span>따릉이 임시잠금</span>
+          <a href="#"></a>
+        </div>
+        <div>
+          <p><img src="./img/sec3_g4.png" alt=""></p>
+          <span>따릉이 반납방법</span>
+          <a href="#"></a>
+        </div>
+      </div>
+    </section>
+    <section class="sec4 _inner">
+      <div class="sec4_text">
+        <span>자주하는 질문</span>
+        <a href="#">더보기<i class="fas fa-chevron-right"></i></a>
+      </div>
+      <div class="sec4_tap">
+        <span class="on" data-tab="tab-1">대여 및 반납</span>
+        <span data-tab="tab-2">자전거 및 시설관리</span>
+        <span data-tab="tab-3">대여소 문의</span>
+        <span data-tab="tab-4">결제, 환불, 마일리지</span>
+        <span data-tab="tab-5">앱, 홈페이지 문의</span>
+        <span data-tab="tab-6">자전거 추가배치</span>
+      </div>
+      <div id="tab-1" class="sec4_con on">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>대여하기 버튼을 눌러도 대여 신청이 안돼요.</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>따릉이를 대여한 곳에만 반납해야 하나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>대여절차를 했는데 자전거 잠금장치가 해제되지 않아요.</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>잠시 거치중 잠금장치를 채웠는데 잠금이 풀리지 않아 반납이 안돼요.</p>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div id="tab-2" class="sec4_con">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>따릉이를 타고 가다가 고장이 났는데 어떻게 해야 하나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>공공자전거 따릉이의 브레이크의 앞뒤 브레이크는 어느쪽인가요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>자전거 안장이 너무 낮아요(높아요)</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>자전거에 핸드폰 거치대가 있었으면 좋겠어요</p>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div id="tab-3" class="sec4_con">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>대여소 설치요청 하고싶어요.</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>우리지역에 신규 설치 예정 대여소는?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>자주 가던 대여소가 갑자기 폐쇄되었어요. 언제 다시 운영하나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>대여소 개설, 폐쇄, 이설 관련 문의입니다.</p>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div id="tab-4" class="sec4_con">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>요금제 및 결제수단(결제수단을 늘려주세요)</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>추가요금은 무엇이며 어떻게 결제하나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>환불신청 방법, 환불규정, 입금 처리는 언제 되나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>이용권 만료 전 정기결제가 되나요?</p>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div id="tab-5" class="sec4_con">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>대중교통 환승카드 등록은 어떻게 하나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>따릉이 알림톡을 차단했는데, 다시 받고 싶습니다.</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>따릉이 카카오 친구 차단 후에도, 알림이 계속 와요.</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>앱상 자전거 수량표시와 실제 자전거 수량이 달라요.</p>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div id="tab-6" class="sec4_con">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>자전거 배치는 어떻게 이루어지고 있나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>자전거 추가배치를 신청하면 어떻게 반영되나요?</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>전반적으로 자전거가 너무 부족한 것 같습니다. 대응방안이 궁금합니다.</p>
+          <a href="#"></a>
+        </div>
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <p>자전거 배치 신청방법이 궁금해요!</p>
+          <a href="#"></a>
+        </div>
+      </div>
+    </section>
+    <section class="sec5">
+      <div class="_inner">
+        <div class="sec5_text">
+          <span>새롭게 단장하고 찾아온 따릉이 앱</span>
+          <p>간편해진 UI와 시스템으로 따릉이를 더욱 편리하게 대여 할 수 있습니다. <br>
+            지금 바로 이용해 보세요.</p>
+        </div>
+        <div class="sec5_btn">
+          <a href="#"><i class="fab fa-apple"></i><span>앱스토어 다운로드</span></a>
+          <a href="#"><i class="fab fa-google-play"></i><span>플레이스토어 다운로드</span></a>
+        </div>
+      </div>
+    </section>
+    <footer class="foot">
+      <div class="_inner">
+        <div class="fl">
+          <div class="fla">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보 처리방침</a>
+            <a href="#">보험안내</a>
+            <a href="#">도움주신 분</a>
+          </div>
+          <p>
+            서울특별시 중구 세종대로 110 서울특별시 04524 대표 오세훈 Tel 1599-0120 (사업자등록번호 : 104-83-00469) <br> COPYRIGHT ⓒ 2018 bikeseoul
+            All RIGHTS RESERVED.
+          </p>
+        </div>
+        <div class="fr">
+          <a href="#"><img src="./img/f_icon1.png" alt=""></a>
+          <a href="#"><img src="./img/f_icon2.png" alt=""></a>
+          <a href="#"><img src="./img/f_icon3.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- 카카오맵 지도 -->
+  <div class="wrap2">
+    <!-- 1. 지도 노드 -->
+    <div id="daumRoughmapContainer1643523383620" class="root_daum_roughmap root_daum_roughmap_landing">
+    </div>
+    <div class="wrap2_btn">
+      <div>
+        <p></p>
+        <span>전체</span>
+        <a href="#"></a>
+      </div>
+      <div>
+        <p></p>
+        <span>LCD형</span>
+        <a href="#"></a>
+      </div>
+      <div>
+        <p></p>
+        <span>QR형</span>
+        <a href="#"></a>
+      </div>
+      <div>
+        <p></p>
+        <span>새싹</span>
+        <a href="#"></a>
+      </div>
+    </div>
+  </div>
+
+  <!--2. 설치 스크립트-->
+  <script charset="UTF-8" class="daum_roughmap_loader_script"
+    src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+  <!-- 3. 실행 스크립트 -->
+  <script charset="UTF-8">
+    new daum.roughmap.Lander({
+      "timestamp": "1643523383620",
+      "key": "28ynm",
+      "mapWidth": "750",
+      "mapHeight": "1000"
+    }).render();
+  </script>
+  
+  <!-- script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/common.js"></script>
+</body>
+
+</html>
